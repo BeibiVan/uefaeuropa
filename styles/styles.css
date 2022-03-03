@@ -1,0 +1,79 @@
+* {margin: 0;
+padding: 0;
+box-sizing: border-box;
+background: linear-gradient(0deg, rgba(56,7,7,1) 100%, rgba(99,13,13,1) 100%);
+font-family: 'Roboto', sans-serif;}
+
+
+
+header {width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    }
+
+
+.title-section {color: #ff5a00;
+font-weight: bold;
+text-align: center;}
+
+.octavos_title {color: #ff5a00;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5%;}
+
+#octavos_container {display: grid;
+    grid-template-columns:   repeat(2, 1fr);
+    grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px repeat(8, 1fr);
+    width: 80%;
+    margin-left: 10%;
+    padding-top: 5%;
+    gap: 30px;}
+  
+button {background:#ff5900;
+        border-radius:26px;
+        border:2px solid rgb(37, 5, 5);
+        display:inline-block;
+        cursor:pointer;
+        color: rgba(56,7,7,1);
+        font-family:Arial;
+        font-size:17px;
+        padding:16px 31px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #ff5900;
+    }
+    button:hover {
+        background-color:#fc7329;
+    }
+    button:active {
+        position:relative;
+        top:1px;
+    }
+    
+.cuartos_title {color: #ff5a00;
+    font-weight: bold;
+    text-align: center;
+    }
+
+#cuartos_container {display: grid;
+    grid-template-columns:   repeat(2, 1fr);
+    grid-template-rows: 50px 50px 50px 50px repeat(4, 1fr);
+    width: 80%;
+    margin-left: 10%;
+    padding-top: 5%;
+    gap: 30px;}
+
+.semis_title {color: #ff5a00;
+    font-weight: bold;
+    text-align: center;
+    }
+
+#semis_container {display: grid;
+    grid-template-columns:   repeat(2, 1fr);
+    grid-template-rows: 50px 50px repeat(2, 1fr);
+    width: 80%;
+    margin-left: 10%;
+    padding-top: 5%;
+    gap: 30px;}
