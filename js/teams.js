@@ -1,26 +1,22 @@
 class equipo {
-    constructor (equipo,pais) {
-    this.equipo = equipo
+    constructor (equipos,pais,id,escudo) {
+    this.equipos = equipos
     this.pais = pais
+    this.id = id
+    this.escudo = escudo
     }
 };
 
 const equiposTotal = []
 
-equiposTotal.push  (new equipo ("Rangers FC", "Escocia"));
-equiposTotal.push  (new equipo ("Estrella Roja", "Serbia"));
-equiposTotal.push  ( new equipo ("SC Braga", "Portugal"));
-equiposTotal.push  ( new equipo ("AS Monaco", "Francia"));
-equiposTotal.push  ( new equipo ("FC Porto", "Portugal"));
-equiposTotal.push  ( new equipo ("Olympique Lyon", "Francia"));
-equiposTotal.push  ( new equipo ("Atalanta", "Italia"));
-equiposTotal.push  ( new equipo ("Bayer Leverkusen", "Alemania"));
-equiposTotal.push  ( new equipo ("Sevilla", "España"));
-equiposTotal.push  ( new equipo ("West Ham", "Inglaterra"));
-equiposTotal.push  ( new equipo ("Barcelona", "España"));
-equiposTotal.push  ( new equipo ("Galatasaray", "Turquía"));
-equiposTotal.push  ( new equipo ("RB Lepizig", "Alemania"));
-equiposTotal.push  ( new equipo ("Spartak Moscú", "Rusia"));
-equiposTotal.push  (new equipo ("Real Betis", "España"));
-equiposTotal.push  ( new equipo ("Frankfurt", "Alemania"));
+equiposTotal.push  (new equipo ("Rangers FC", "Escocia", "1", "./images/ran.png"));
+equiposTotal.push  ( new equipo ("SC Braga", "Portugal", "2", "./images/sport.png"));
+equiposTotal.push  ( new equipo ("Olympique Lyon", "Francia", "3", "./images/lyo.png"));
+equiposTotal.push  ( new equipo ("Atalanta", "Italia", "4", "./images/atl.png"));
+equiposTotal.push  ( new equipo ("West Ham", "Inglaterra", "5", "./images/wes.png"));
+equiposTotal.push  ( new equipo ("Barcelona", "España", "6", "./images/barc.png"));
+equiposTotal.push  ( new equipo ("RB Lepizig", "Alemania", "7", "./images/le.png"));
+equiposTotal.push  ( new equipo ("Frankfurt", "Alemania", "8", "./images/frtan.png"));
+
+
 
