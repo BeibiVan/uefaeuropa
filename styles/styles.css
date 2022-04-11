@@ -5,7 +5,7 @@ background: linear-gradient(0deg, #380707 100%, rgba(99,13,13,1) 100%);
 font-family: 'Roboto', sans-serif;}
 
  header {
-    background-image:url(./images/Sin-título-1-Recuperado.png); 
+    background-image:url(/images/Sin-título-1-Recuperado.png); 
     background-size:cover;
     background-position:-10px 500px; 
    width: 100%;
